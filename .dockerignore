@@ -1,0 +1,6 @@
+.env
+.git
+.gitignore
+screenshots/
+check-status.sh
+README.md

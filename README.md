@@ -24,16 +24,16 @@ chmod +x check-status.sh
 ## 3. Livrables (Preuves de fonctionnement)
 
 ### Succès du script check-status.sh
-![Succès du script](./images/check-status-succes.png)
+![Succès du script](images/check-status-succes.png)
 
 ### Validation de schéma (Erreur de sécurité)
-![Erreur de validation](./images/validateur-schema.png)
+![Erreur de validation](images/validateur-schema.png)
 
 ### Utilisateur non-privilégié (UID 1001)
-![Inspection Utilisateur](./images/id-utilisateur.png)
+![Inspection Utilisateur](images/id-utilisateur.png)
 
 ### État du conteneur (Docker PS)
-![Docker PS](./images/docker-process-status.png)
+![Docker PS](images/docker-process-status.png)
 
 ### Données initialisées (find)
-![Résultat find](./images/find.png)
+![Résultat find](images/find.png)

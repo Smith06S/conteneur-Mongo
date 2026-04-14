@@ -12,6 +12,7 @@ Créez un fichier `.env` à partir du modèle `.env.example` en remplissant vos 
 ### Étape 2 : Construction de l'image
 ```bash
 docker build -t smith06s/mongo-blog:1.0.0 .
+```
 
 ### Étape 3 : Lancement
 docker run -d --name mango-container --env-file .env -p 27017:27017 smith06s/mongo-blog:1.0.0
